@@ -1,15 +1,22 @@
 import logging
+import sys
 from telethon import TelegramClient
 import csv
 import os
 import json
 from dotenv import load_dotenv
 
-# Set up logging
+# # Set up logging
+# logging.basicConfig(
+#     filename='scraping.log',
+#     level=logging.INFO,
+#     format='%(asctime)s - %(levelname)s - %(message)s'
+# )
+# Configure logging to use utf-8 encoding
 logging.basicConfig(
-    filename='scraping.log',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)]
 )
 
 # Load environment variables once

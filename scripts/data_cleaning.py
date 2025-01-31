@@ -12,7 +12,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("../logs/data_cleaning.log"),  # Log to file
+        logging.FileHandler("../logs/data_cleaning.log", encoding="utf-8"),  # Log to file
         logging.StreamHandler()  # Log to Jupyter Notebook output
     ]
 )
