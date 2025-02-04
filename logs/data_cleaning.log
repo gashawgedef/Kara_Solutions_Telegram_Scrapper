@@ -1,0 +1,82 @@
+2025-02-04 11:02:29,897 - INFO - ✅ CSV file '../DoctorsET_data.csv' loaded successfully.
+2025-02-04 11:02:42,501 - INFO - ✅ Duplicates removed from dataset.
+2025-02-04 11:02:42,531 - INFO - ✅ Date column formatted to datetime.
+2025-02-04 11:02:42,540 - INFO - ✅ Missing values filled.
+2025-02-04 11:02:42,552 - INFO - ✅ Text columns standardized.
+2025-02-04 11:02:42,558 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-04 11:02:42,569 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-04 11:02:42,573 - INFO - ✅ Data cleaning completed successfully.
+2025-02-04 11:03:05,906 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-02-04 11:03:11,685 - ERROR - ❌ Database connection failed: No module named 'psycopg2'
+2025-02-04 11:05:32,340 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:05:55,371 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:13:06,668 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:13:22,181 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:13:51,280 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:14:53,650 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 11:15:23,288 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 13:53:06,713 - INFO - ✅ CSV file '../DoctorsET_data.csv' loaded successfully.
+2025-02-04 13:53:09,220 - INFO - ✅ CSV file '../DoctorsET_data.csv' loaded successfully.
+2025-02-04 13:53:20,707 - INFO - ✅ Duplicates removed from dataset.
+2025-02-04 13:53:20,732 - INFO - ✅ Date column formatted to datetime.
+2025-02-04 13:53:20,740 - INFO - ✅ Missing values filled.
+2025-02-04 13:53:20,750 - INFO - ✅ Text columns standardized.
+2025-02-04 13:53:20,762 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-04 13:53:20,778 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-04 13:53:20,783 - INFO - ✅ Data cleaning completed successfully.
+2025-02-04 13:53:44,614 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-02-04 13:53:50,548 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "telegram_raw_data" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-04 13:56:01,831 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-02-04 13:56:09,723 - INFO - ✅ Table 'telegram_messages' created successfully.
+2025-02-04 13:56:41,864 - INFO - Inserting: 864 - 2023-12-18 17:04:02+00:00
+2025-02-04 13:56:41,872 - INFO - Inserting: 863 - 2023-11-03 16:14:39+00:00
+2025-02-04 13:56:41,878 - INFO - Inserting: 862 - 2023-10-02 16:37:39+00:00
+2025-02-04 13:56:41,881 - INFO - Inserting: 861 - 2023-09-16 07:54:32+00:00
+2025-02-04 13:56:41,884 - INFO - Inserting: 860 - 2023-09-01 16:16:15+00:00
+2025-02-04 13:56:41,886 - INFO - Inserting: 859 - 2023-08-29 17:20:05+00:00
+2025-02-04 13:56:41,890 - INFO - Inserting: 848 - 2022-08-02 17:42:08+00:00
+2025-02-04 13:56:41,895 - INFO - Inserting: 847 - 2022-06-12 17:15:47+00:00
+2025-02-04 13:56:41,898 - INFO - Inserting: 846 - 2022-05-31 17:51:13+00:00
+2025-02-04 13:56:41,902 - INFO - Inserting: 845 - 2022-05-20 18:04:53+00:00
+2025-02-04 13:56:41,907 - INFO - Inserting: 844 - 2022-05-15 15:59:10+00:00
+2025-02-04 13:56:41,910 - INFO - Inserting: 843 - 2022-05-07 18:22:14+00:00
+2025-02-04 13:56:41,915 - INFO - Inserting: 842 - 2022-05-06 17:51:05+00:00
+2025-02-04 13:56:41,918 - INFO - Inserting: 841 - 2022-05-06 17:51:05+00:00
+2025-02-04 13:56:41,923 - INFO - Inserting: 840 - 2022-05-06 17:51:05+00:00
+2025-02-04 13:56:41,929 - INFO - Inserting: 839 - 2022-05-06 17:51:05+00:00
+2025-02-04 13:56:41,932 - INFO - Inserting: 836 - 2022-05-01 11:13:33+00:00
+2025-02-04 13:56:41,936 - INFO - Inserting: 835 - 2022-04-29 18:59:05+00:00
+2025-02-04 13:56:41,943 - INFO - Inserting: 834 - 2022-04-29 18:57:35+00:00
+2025-02-04 13:56:41,946 - INFO - Inserting: 833 - 2022-04-28 05:46:38+00:00
+2025-02-04 13:56:41,951 - INFO - ✅ 20 records inserted into PostgreSQL database.

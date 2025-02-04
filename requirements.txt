@@ -4,3 +4,5 @@ nltk
 pandas
 sqlalchemy
 emoji
+psycopg2
+dbt-core
